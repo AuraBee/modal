@@ -1,0 +1,64 @@
+html, body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59); 
+}
+
+/** 
+  Buttons '#open-modal, #close-modal' 
+**/
+
+  #open-modal, #close-modal {
+    background-color: lightgreen;
+    color: darkblue;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 1em;
+    -webkit-border-radius: .5em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+  }
+
+/** 
+  Modal: #modal **/
+
+  #modal {
+    background-color: white;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 200px;
+    position: relative;
+    top: 30%;
+    border-radius: .2em;
+    -webkit-border-radius: .3em;
+    -moz-border-radius: .2em;
+    -ms-border-radius: .2em;
+    -o-border-radius: .2em;
+  }
+
+  #modal p {
+    color:midnightblue;
+    font-size: larger;
+  }
+
+/** 
+  Overlay: #overlay **/
+
+#overlay {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(44, 4, 66, 0.99);
+}
